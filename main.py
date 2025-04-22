@@ -39,19 +39,19 @@ class Vehicle:
 # Derived class Car
 class Car(Vehicle):
     def move(self):
-        return "Driving 🚗"
+        return "Driving"
 
 
 # Derived class Plane
 class Plane(Vehicle):
     def move(self):
-        return "Flying ✈️"
+        return "Flying"
 
 
 # Derived class Boat
 class Boat(Vehicle):
     def move(self):
-        return "Sailing ⛵"
+        return "Sailing"
 
 
 # Main program to test both the Smartphone and Polymorphism example
